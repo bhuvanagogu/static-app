@@ -2,7 +2,7 @@
 FROM nginx
 
 # Copy static files to the default Nginx location
-COPY index.html /usr/share/nginx/html/
+COPY . /usr/share/nginx/html/
 
 
 
